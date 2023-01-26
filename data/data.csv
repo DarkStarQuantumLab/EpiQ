@@ -1,0 +1,4 @@
+place,population,exposed,infected,infected_cv,infected_iv,recovered,dead,vaccinated,immunity,beta,gamma_iv,gamma_cv,gamma,rho_cv,rho_iv,rho,alpha,eta,delta,delta1,sigma,GDP,Bed
+city 1,1563490,100,0,0,0,0,0,10000,0,1.25,0.086,0.79,0.25,0.01,0.2,0.16,0.02,0.45,0.2,0.5,0.2,310,20000
+city 2,1249034,0,0,0,0,0,0,10000,0,1.25,0.086,0.79,0.25,0.01,0.2,0.16,0.02,0.45,0.2,0.5,0.9,293,15000
+city 3,980045,0,0,0,0,0,0,1000,0,1.25,0.086,0.79,0.25,0.01,0.2,0.16,0.02,0.45,0.2,0.5,0.9,78,15050
