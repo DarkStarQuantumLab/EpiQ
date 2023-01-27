@@ -9,13 +9,13 @@ For a local installation, ideally in a virtual environment, run:
 
 ## Epidemiological Models Supported
 
-The following [epidemiological models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology)are available:
+The following [epidemiological models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) are available:
 
-Markup : - SIR
-         - SIRD
-         - SEIR
-         - SEIRD
-         - SEIivlcvRDVIm
+- SIR
+- SIRD
+- SEIR
+- SEIRD
+- SEIivlcvRDVIm
 
 ## Lockdown Management (Knapsack Problem)
 
