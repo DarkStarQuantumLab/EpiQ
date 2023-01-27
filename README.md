@@ -1,4 +1,4 @@
-# Epidemiological-Solutions-on-Quantum-Annealing
+# Epidemiological Solutions with Quantum Annealing
 
 ## 
 
