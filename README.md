@@ -10,6 +10,7 @@ For a local installation, ideally in a virtual environment, run:
 ## Epidemiological Models Supported
 
 The following [epidemiological models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology)are available:
+
 Markup : - SIR
          - SIRD
          - SEIR
@@ -22,11 +23,11 @@ The recommendation upon which a cities is recommended for lockdown is given by t
 The knapsack could be solved on a classical computer (CPU), on the physical quantum hardware (QPU) available via [DWave Leap cloud services](https://www.dwavesys.com/solutions-and-products/cloud-platform/), or as the simulated annealing algorithm. 
 
 An example the lockdown recommendation is depicted below.
-| City/ Days Elapsed |  0     | 5      |   10   |
-|--------------------|--------|--------|--------|
-| ``city 1``         | open   | closed |closed  |
-| ``city 2``         | open   | closed |closed  |
-| ``city 3``         | open   | closed |closed  |
+| City // Days Elapsed |  0     | 5      |   10   |
+|----------------------|--------|--------|--------|
+| ``city 1``           | open   | closed |closed  |
+| ``city 2``           | open   | closed |closed  |
+| ``city 3``           | open   | closed |closed  |
 
 
 ## QSVM (Quantum Support Vector Machine)
