@@ -1,6 +1,6 @@
-# MedSQed
+# Epidemiological-Solutions-on-Quantum-Annealing
 
-## What is MedSQed
+## 
 
 ## Installation
 
