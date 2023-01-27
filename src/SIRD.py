@@ -1,3 +1,17 @@
+# Copyright DarkStarQuantumLab, Inc.
+#
+#    Licensed under the Apache License, Version 2.0 (the "License");
+#    you may not use this file except in compliance with the License.
+#    You may obtain a copy of the License at
+#
+#        http://www.apache.org/licenses/LICENSE-2.0
+#
+#    Unless required by applicable law or agreed to in writing, software
+#    distributed under the License is distributed on an "AS IS" BASIS,
+#    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#    See the License for the specific language governing permissions and
+#    limitations under the License.
+
 from scipy.integrate import odeint
 import numpy as np
 from typing import Tuple, Any
@@ -8,37 +22,6 @@ class SIRD(EpidemiologyModel):
         The SIRD Class (Susceptible Infected Recovered Dead) invokes implicitly by 
         epidemiology and optimization classes.
     """
-
-    # def __init__(self, i, S0, I0, R0, D0, N, t, beta, gamma, rho, Tr_matrix, total_cities, mainDf):
-    #     self.S0 = S0
-    #     self.I0 = I0
-    #     self.R0 = R0
-    #     self.D0 = D0
-    #     self.N = N
-    #     self.t = t
-    #     self.i = i
-    #     self.Tr_matrix = Tr_matrix
-
-    #     if mainDf is not None:
-    #         self.total_cities = len(mainDf)
-    #     else:
-    #         self.total_cities=total_cities
-
-
-    #     if isinstance(beta, list) and isinstance(gamma, list) and isinstance(rho, list):
-    #         for i in range(len(beta)):
-    #             self.beta = beta[i]
-    #             self.gamma = gamma[i]
-    #             self.rho = rho[i]
-
-    #             self.evolve()
-
-    #     if not isinstance(beta, list) and not isinstance(gamma, list) and not isinstance(rho, list):
-    #         self.beta = beta
-    #         self.gamma = gamma
-    #         self.rho = rho
-
-    #         self.evolve()
 
     def __init__(self, i, S0, I0, R0, D0, N, t, beta, gamma, rho, Tr_matrix, total_cities, mainDf):
         self.D0 = D0

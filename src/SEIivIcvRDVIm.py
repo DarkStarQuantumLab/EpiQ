@@ -1,3 +1,17 @@
+# Copyright DarkStarQuantumLab, Inc.
+#
+#    Licensed under the Apache License, Version 2.0 (the "License");
+#    you may not use this file except in compliance with the License.
+#    You may obtain a copy of the License at
+#
+#        http://www.apache.org/licenses/LICENSE-2.0
+#
+#    Unless required by applicable law or agreed to in writing, software
+#    distributed under the License is distributed on an "AS IS" BASIS,
+#    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#    See the License for the specific language governing permissions and
+#    limitations under the License.
+
 from scipy.integrate import odeint
 
 class SEIivIcvRDVIm:
@@ -14,7 +28,6 @@ class SEIivIcvRDVIm:
         self.N = N
         self.t = t
 
-        # TODO: change to if all is instance
         if all(isinstance(param, list) for param in [beta, delta, delta1, alpha, eta, gamma_iv, 
                                                     gamma_cv, rho_iv, rho_cv, sigma]):
             for i in range(len(beta)):
