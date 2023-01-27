@@ -1,6 +1,6 @@
-# MedSQed
+# Epidemiological Solutions with Quantum Annealing
 
-## What is MedSQed
+## 
 
 ## Installation
 
