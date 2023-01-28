@@ -7,7 +7,7 @@ For a local installation, ideally in a virtual environment, run:
 
     pip install -r requirements.txt
 
-## Epidemiological Models Supported
+## Epidemiological Models
 
 The following [epidemiological models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) are available:
 
@@ -35,6 +35,13 @@ An example the lockdown recommendation is depicted below.
 The QSVM makes predictions infected/uninfected based on the symptomes and patient's age.
 
 The QSVM could be executed on a physical quantum annealing device or as the simulated annealing algorithm locally. 
+
+## Data
+A sample of data points for training is available in the [data](https://github.com/DarkStarQuantumLab/Epidemiological-Solutions-on-Quantum-Annealing/tree/main/data) subdirectory. 
+
+- [Covid_Sym2.csv](https://github.com/DarkStarQuantumLab/Epidemiological-Solutions-on-Quantum-Annealing/blob/main/data/Covid_Sym2.csv) is a file with COVID-19 symptomes for the QSVM trainig.
+- [data.csv](https://github.com/DarkStarQuantumLab/Epidemiological-Solutions-on-Quantum-Annealing/blob/main/data/data.csv) contains data points about cities (population, infected, recovered, GDP, etc.) 
+- [distance.csv](https://github.com/DarkStarQuantumLab/Epidemiological-Solutions-on-Quantum-Annealing/blob/main/data/distance.csv) is the distances between cities.
 
 ## License
 
