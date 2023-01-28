@@ -197,11 +197,13 @@ class Optimization:
     def run_lockdown(self, verbose):
         """
         Classify cities as open, closed through knapsack algorithms. The knapsack problem is solved
-        either on quantum hardaware, or on classical computing device (CPU) 
+        either on quantum hardaware, or on classical computing device (CPU), 
         or as a simulated annealing algorithm.
 
         Args: 
-            verbose
+            verbose: (bool)
+        Returns:
+            None.
         """
         self.cost = self.data_frame[self.model_property['max']].to_list() #gdp
         self.weight=[0 for x in range(len(self.city))] #infected

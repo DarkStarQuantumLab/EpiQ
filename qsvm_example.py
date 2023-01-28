@@ -32,3 +32,5 @@ if __name__ == "__main__":
     c = QSVM_object.predict(x_test)
     prediction = "Negative" if c < 0.50 else "Positive"
     print("Prediction is ", prediction)
+    QSVM_object.printconfusionmatrix()
+    QSVM_object.plotQSVM()

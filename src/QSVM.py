@@ -273,8 +273,8 @@ class QSVM:
 		
 		plt.legend(loc='lower right', fontsize='x-small')
 		plt.plot()
-		plt.savefig("../results/QSVM_plot.png")
-		print("[1] Figure saved at current directory as QSVM_plot.png")
+		plt.savefig("results/QSVM_plot.png")
+		print("[1] Figure saved as QSVM_plot.png")
 		
 	def calculateKPI(self):
 		"""
@@ -344,7 +344,7 @@ class QSVM:
 		ax.set_title('Confusion Matrix')
 		ax.xaxis.set_ticklabels(['positive', 'negative'])
 		ax.yaxis.set_ticklabels(['True', 'False'])
-		plt.savefig("../results/Confusion_Matrix.png")
+		plt.savefig("results/Confusion_Matrix.png")
 		print("[1] Confusion matrix plot saved as Confusion_Matrix.png")
 
 	def _pref_metrics(self, threshold):
