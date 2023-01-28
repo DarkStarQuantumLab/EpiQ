@@ -30,7 +30,7 @@ An example the lockdown recommendation is depicted below.
 | ``city 3``           | open   | closed |closed  |
 
 
-## QSVM (Quantum Support Vector Machine)
+## Infection Prediction (Quantum Support Vector Machine)
 
 The QSVM makes predictions infected/uninfected based on the symptomes and patient's age.
 
