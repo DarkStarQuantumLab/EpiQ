@@ -1,4 +1,4 @@
-# Epidemiological Solutions with Quantum Annealing
+# Epidemiological Solutions with Quantum Annealing - EpiQ
 
 
 ## Installation
