@@ -12,7 +12,10 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
 
-from src.QSVM import *
+import sys
+sys.path.append("src/")
+
+from QSVM import *
 
 if __name__ == "__main__":
     # train the QSVM object

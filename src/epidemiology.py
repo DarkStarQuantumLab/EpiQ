@@ -12,11 +12,11 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
 import pandas as pd
-from .SIR import *
-from .SIRD import *
-from .SEIR import *
-from .SEIRD import *
-from .SEIivIcvRDVIm import *
+from SIR import *
+from SIRD import *
+from SEIR import *
+from SEIRD import *
+from SEIivIcvRDVIm import *
 import numpy as np
 pd.options.display.float_format = '{:20,.2f}'.format
 

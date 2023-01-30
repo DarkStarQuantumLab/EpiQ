@@ -15,7 +15,7 @@
 from scipy.integrate import odeint
 import numpy as np
 from typing import Tuple, Any
-from .base_epidimiology_model_class import EpidemiologyModel
+from base_epidimiology_model_class import EpidemiologyModel
 
 class SIRD(EpidemiologyModel):
     """

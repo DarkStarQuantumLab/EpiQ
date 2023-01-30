@@ -11,15 +11,17 @@
 #    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
+import sys
+sys.path.append("src/")
 
-from src.epidemiology import *
-from src.modelplot import *
+from epidemiology import *
+from modelplot import *
 import pandas as pd
 
 if __name__ == "__main__":
 	# load data
-	dataFrame=pd.read_csv('data/data.csv') 
-	timePoints=[x for x in range(1,50)]	
+	dataFrame=pd.read_csv('data/data.csv')
+	timePoints=[x for x in range(1,50)]
 	distanceDataFrame = pd.read_csv('data/distance.csv', index_col = 0, header =0)
 
 	

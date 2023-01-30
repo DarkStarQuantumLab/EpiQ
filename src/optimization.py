@@ -12,7 +12,7 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
 
-from .epidemiology import *
+from epidemiology import *
 import pandas as pd
 import numpy as np
 from copy import deepcopy

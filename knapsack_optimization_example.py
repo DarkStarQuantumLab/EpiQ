@@ -12,8 +12,11 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
 
-from src.optimization import *
-from src.modelplot import *
+import sys
+sys.path.append("src/")
+
+from optimization import *
+from modelplot import *
 
 if __name__ == "__main__":
     # load data

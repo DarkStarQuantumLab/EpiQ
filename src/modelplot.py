@@ -13,7 +13,7 @@
 #    limitations under the License.
 import matplotlib.pyplot as plt
 import re
-from .epidemiology import *
+from epidemiology import *
 
 
 class Modelplot:
