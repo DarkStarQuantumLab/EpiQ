@@ -43,6 +43,12 @@ A sample of data points for training is available in the [data](https://github.c
 - [data.csv](https://github.com/DarkStarQuantumLab/Epidemiological-Solutions-on-Quantum-Annealing/blob/main/data/data.csv) contains data points about cities (population, infected, recovered, GDP, etc.) 
 - [distance.csv](https://github.com/DarkStarQuantumLab/Epidemiological-Solutions-on-Quantum-Annealing/blob/main/data/distance.csv) is the distances between cities.
 
+## Examples
+
+## Results
+
+## Disclamer
+
 ## License
 
 This work is licensed under the [Apache 2 License](https://www.apache.org/licenses/LICENSE-2.0) and is owned by [DarkStarQuantumLab, Inc.](https://github.com/DarkStarQuantumLab). 
