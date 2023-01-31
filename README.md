@@ -1,5 +1,5 @@
 # Epidemiological Solutions with Quantum Annealing - EpiQ
-
+The impact of COVID-19 on the socio economic condition of a country is significant. It causes many deaths and threats to the economic sustainability. We have faced the emergency situation when infection was at peak causing bed crisis at hospitals. Amidst this pandemic scarcity in bed and high death rate threw many challenges to government. To mitigate the impact of pandemic strict lockdown is the inevitable solution. In this paper, our objective is to design a phase-wise optimal lockdown schedule among cities; so that some of cities can be selected to be kept open in such a way that death can be minimized as well as bed capacity can be maximized. The remaining cities will face lockdown in that phase. To execute optimal lockdown over phases, we use the well-known Knapsack problem in classical and quantum. We have evaluated SEIRD model with no lockdown condition and observed that by imposing lockdown death rate in reducing. It is found that the quantum solution reduces the overall death count in each city. From experimental result we conclude that in quantum approximately 25660 total death comprising 5 cities where as in classical the death toll rises to approximately 50000. From this study, it can be observed that Quantum lockdown scheduling is optimal compared to classical one.  
 
 ## Installation
 
