@@ -44,10 +44,23 @@ A sample of data points for training is available in the [data](https://github.c
 - [distance.csv](https://github.com/DarkStarQuantumLab/Epidemiological-Solutions-on-Quantum-Annealing/blob/main/data/distance.csv) is the distances between cities.
 
 ## Examples
+Some tutorial to get started with lockdown management.
 
-## Results
+[Epidemiology Models](https://github.com/DarkStarQuantumLab/Epidemiological-Solutions-with-Quantum-Annealing/blob/main/examples/Epidemiology%20Models.ipynb)
+
+[Knapsack](https://github.com/DarkStarQuantumLab/Epidemiological-Solutions-with-Quantum-Annealing/blob/main/examples/Knapsack.ipynb)
+
+[QSVM](https://github.com/DarkStarQuantumLab/Epidemiological-Solutions-with-Quantum-Annealing/blob/main/examples/QSVM.ipynb)
+
 
 ## Disclamer
+
+The code in this repository is distributed on an "AS IS" basis, without any warranties or conditions of any kind. 
+
+The code was tested on a classical CPU and DWave Quantum Anealer hardwares available via AWS Braket prior to November 18th 2022. To submit the code to a quantum hardware after November 18th 2022, a DWave's cloud API is required. More information could be found in the [dwave-cloud-client](https://docs.ocean.dwavesys.com/en/stable/docs_cloud/sdk_index.html) resource. 
+
+To submit problems to Leap solvers, use a ``dwave-system``solver. More details can be found in the
+[Ocean documentation](https://docs.ocean.dwavesys.com/en/stable/index.html).
 
 ## License
 
