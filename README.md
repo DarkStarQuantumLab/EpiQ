@@ -1,7 +1,7 @@
 #  EpiQ - Epidemiological Solutions with Quantum Annealing and Quantum Machine Learning
-As COVID-19 examplified, the impact of a pandemic on global socioeconomics can be dramatic. This project uses first generation quantum processors, in particualr, quantum annealers, in the design of a phase-wise, optimal lockdown schedule among cities during a pandemic so that some of cities can stay open while minimizing the rate of deaths and maximizing the number of beds available in hospitals. It is observed that the lock-down schedule proposed by the quantum annealer is better than the one proposed by a classical one.  
+As COVID-19 exemplified, the impact of a pandemic on global socioeconomics can be dramatic. This project uses first generation quantum processors, in particular, quantum annealers, in the design of a phase-wise, optimal lockdown schedule among cities during a pandemic so that some of cities can stay open while minimizing the rate of deaths and maximizing the number of beds available in hospitals. It is observed that the lock-down schedule proposed by the quantum annealer is better than the one proposed by a classical one.  
 
-The cutting edge tool used in this project is the Quantum Support Vecotr Machine, an instance of a Quantum Machine Learning (QSVM) algorithm that can be implemented on a quantum processor. 
+The cutting edge tool used in this project is the Quantum Support Vector Machine, an instance of a Quantum Machine Learning (QSVM) algorithm that can be implemented on a quantum processor. 
 
 ## Installation
 
